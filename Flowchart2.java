@@ -33,6 +33,7 @@ public class Flowchart2 {
 
         } else if (jmlBuku > 3) {
             diskon = 0.05f;
+            System.out.println("Total Diskon = " + diskon);
         } else {
             diskon = 0f;
             System.out.println("Total Diskon = " + diskon);
