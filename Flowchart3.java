@@ -58,7 +58,7 @@ public class Flowchart3 {
             } else if (kategori.equalsIgnoreCase("Man")) {
                 if (ukuran <= 44) {
                     if (ukuran >= 41) {
-                        harga = 1500000;
+                        harga = 1800000;
                         System.out.println("Harga = " + harga);
                     } else {
                         System.out.println("Ukuran tidak tersedia");
@@ -84,7 +84,7 @@ public class Flowchart3 {
             } else if (kategori.equalsIgnoreCase("Adults")) {
                 if (ukuran <= 44) {
                     if (ukuran >= 41) {
-                        harga = 1000000;
+                        harga = 1500000;
                         System.out.println("Harga = " + harga);
                     } else {
                         System.out.println("Ukuran tidak tersedia");
