@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class PertanyaanPecobaan1 {
+public class PertanyaanPecoba1 {
 
     public static void main(String[] args) {
         Scanner input18 = new Scanner(System.in);
@@ -17,6 +17,8 @@ public class PertanyaanPecobaan1 {
                 System.out.println("Bukan Tahun Kabisat");
             }
 
+        } else {
+            System.out.println("Bukan Tahun Kabisat");
             input18.close();
         }
     }
