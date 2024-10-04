@@ -15,14 +15,14 @@ public class Flowchart2 {
         System.out.print("Masukkan jumlah buku : ");
         jmlBuku = input.nextInt();
 
-        if (jenisBuku.equalsIgnoreCase("Novel")) {
+        if (jenisBuku.equalsIgnoreCase("Kamus")) {
             diskon = 0.10f;
             if (jmlBuku > 2) {
                 diskon = 0.10f + 0.02f;
             }
             System.out.println("Total Diskon = " + diskon);
 
-        } else if (jenisBuku.equalsIgnoreCase("Komik")) {
+        } else if (jenisBuku.equalsIgnoreCase("Novel")) {
             diskon = 0.07f;
             if (jmlBuku > 3) {
                 diskon = 0.07f + 0.02f;
