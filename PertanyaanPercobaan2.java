@@ -29,7 +29,7 @@ public class PertanyaanPercobaan2 {
         System.out.println("--------------------------------------");
 
         // Jika punya member
-        if (member.equalsIgnoreCase("y")) {
+        if (member.equals("y")) {
             diskon = 0.10f;
             System.out.println("Besar diskon = 10% ");
             if (pilihan_menu == 1) {
@@ -51,7 +51,7 @@ public class PertanyaanPercobaan2 {
             totalBayar = harga - (harga * diskon);
             System.out.println("Total Harga setelah diskon = " + totalBayar);
         } // Tanpa member
-        else if (member.equalsIgnoreCase("n")) {
+        else if (member.equals("n")) {
 
             System.out.println("Besar diskon = 0% ");
             if (pilihan_menu == 1) {
@@ -77,7 +77,7 @@ public class PertanyaanPercobaan2 {
         }
         System.out.println("-------------------------------------");
 
-        if (jenisPembayaran.equalsIgnoreCase("QRIS")) {
+        if (jenisPembayaran.equals("QRIS")) {
             System.out.println("Potongan harga Rp 1.000");
             totalBayar = totalBayar - 1000;
             System.out.println("Total Bayar = " + totalBayar);
